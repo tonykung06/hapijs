@@ -1,0 +1,29 @@
+{
+  "name": "hapijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -w ./ index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonykung06/hapijs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonykung06/hapijs/issues"
+  },
+  "homepage": "https://github.com/tonykung06/hapijs#readme",
+  "dependencies": {
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0",
+    "joi": "^8.0.3",
+    "vision": "^4.0.1"
+  }
+}
